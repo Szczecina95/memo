@@ -1,0 +1,10 @@
+@import "./components/ConfirmationModal/styles.css";
+@import "./components/NoContent/styles.css";
+@import "./components/NoteActionForm/styles.css";
+@import "./components/SignleNote/styles.css";
+@import "./components/NotesList/styles.css";
+
+@import "./styles/button.css";
+@import "./styles/text.css";
+@import "./styles/scrollbar.css";
+@import "./styles/global.css";

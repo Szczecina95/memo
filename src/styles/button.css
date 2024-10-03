@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #6b3c9b;
+  --primary-hover-color: #844dba;
+  --primary-active-color: #5b2f87;
+  --primary-disabled-color: #6b3c9b33;
+  --primary-text-color: #ffffff;
+  
+  --secondary-border-color: #bcbcbd;
+  --secondary-hover-bg-color: #e7e7e7;
+  --secondary-active-bg-color: #bdbdbd;
+  --secondary-text-color: #000000;
+}
+
+button {
+  border-radius: 12px;
+  height: 40px;
+  padding: 8px 16px;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+
+button.primary {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+button.primary:hover {
+  background-color: var(--primary-hover-color);
+}
+
+button.primary:active {
+  background-color: var(--primary-active-color);
+}
+
+button.primary:disabled {
+  background-color: var(--primary-disabled-color);
+}
+
+button.secondary {
+  border: 1px solid var(--secondary-border-color);
+  background-color: transparent;
+  color: var(--secondary-text-color);
+}
+
+button.secondary:hover {
+  background-color: var(--secondary-hover-bg-color);
+}
+
+button.secondary:active {
+  background-color: var(--secondary-active-bg-color);
+}

@@ -1,0 +1,100 @@
+.note-view-container {
+  padding: 5px 16px 20px 16px;
+  gap: 24px;
+  opacity: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-view-input {
+  size: 10px;
+}
+
+.note-view-input::placeholder {
+  color: #000000;
+  font-size: medium;
+}
+
+.note-view-text {
+  font-weight: bold;
+}
+
+.note-view-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 125px;
+  margin-left: 10px !important;
+}
+
+.note-view-textarea-container {
+  position: relative;
+  display: inline-block;
+  width: 210px;
+}
+
+.note-view-title {
+  margin-top: 10px; 
+  padding: 8px 16px 16px 16px; 
+  gap: 16px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #EEEFF0;
+  border-color: #EEEFF0;
+  width: 115%;
+  color: #000000;
+  padding-right: 50px;
+  height: 10px;
+  font-family: inherit;
+  overflow: hidden;
+}
+
+.note-view-textarea {
+  margin-top: 5px; 
+  padding: 10px 16px 24px 16px;
+  gap: 16px;
+  border-radius: 12px;
+  opacity: 0px;
+  background-color: #EEEFF0;
+  border-color: #EEEFF0;
+  width: 115%;
+  color: #000000;
+  padding-right: 50px;
+  min-height: 100px;
+  font-family: inherit;
+}
+
+.note-view-textarea:focus {
+  outline: #000000 1px solid;
+  background-color: #ffffff;
+}
+
+.note-view-title:focus {
+  outline: #000000 1px solid;
+  background-color: #ffffff;
+}
+
+.note-view-cancel {
+  background-color: #ffffff;
+  color: #0f75b8;
+  margin-left: auto;
+}
+
+.action-button {
+  position: absolute;
+  top: 75%;
+  right: -90px;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.note-view-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.action-button {
+  position: relative;
+  right: -120px; 
+}
